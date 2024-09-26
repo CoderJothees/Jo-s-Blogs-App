@@ -1,0 +1,70 @@
+
+.NavigationBar{
+  * {
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    background: #009579;
+    min-width: 320px;
+    height: 80px;
+    width: 100%;
+  }
+  
+  label.logo {
+    color: white;
+    font-size: 1.2rem;
+    line-height: 80px;
+    padding-left:50px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 0px;
+  }
+  
+  nav ul li {
+    display: inline;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  
+  nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  a.active,
+  a:hover {
+    background: #00c8a3;
+    transition: .5s;
+  }
+
+  @media only screen and (max-width: 361px){
+    label.logo{
+      padding-left: 0px;
+    }
+    nav ul {
+      float: right;
+      // margin-right: 10px;
+      margin-bottom: 0px;
+    }
+  }
+
+  @media only screen and (min-width: 768px){
+    label.logo{
+      // padding-left: 8px;
+      font-size: 35px;
+    }
+  }
+  
+}

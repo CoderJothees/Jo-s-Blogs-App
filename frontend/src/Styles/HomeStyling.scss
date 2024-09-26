@@ -1,0 +1,24 @@
+.HomePage {
+    .ToCenter {
+        // padding-left: 10%;
+        padding-bottom: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .SinglePostContainer {
+            display: grid;
+            place-items: center;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            row-gap: 55px;
+            gap: 15px;
+            width: 90%;
+            // padding-left: 5%;
+            padding-bottom: 5%;
+            margin-top: 3%;
+        }
+        @media only screen and (max-width: 768px){
+            
+        }
+    }
+}

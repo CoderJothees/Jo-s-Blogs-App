@@ -1,0 +1,143 @@
+.ProfilePage {
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    background-color: #009579;
+    padding: 50px 0;
+
+
+    .ProfileContainer {
+        background-color: #fff;
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 2%;
+
+        header{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+
+            padding-top: 3%;
+            .ProfileTitle {
+                padding-bottom: 9px;
+                border-bottom: 2px solid;
+                text-align: center;
+            }
+
+            .ProfileBackBtn{
+                color: white;
+                font-size: 22px;
+                font-family: "Rasa", serif;
+                // font-optical-sizing: auto;
+                font-weight: 350;
+                padding: 7px 17px ;
+                margin-left: 10px;
+                border-radius: 3px;
+                cursor: pointer;
+                background: #009579;
+            }
+            .ProfileBackBtn:hover{
+                background-color: #eee;
+                box-shadow: rgba(0, 149, 122, 0.499) 0px 10px 36px 0px, rgba(0, 149, 122, 0.499) 0px 0px 0px 1px;
+                color: black;
+                transition: .5s;    
+            }
+        }
+
+        .blog-details {
+            // margin-top: 50px;
+            margin: 5%;
+            border: 1px solid #ddd;
+            padding: 20px;
+            background-color: #f9f9f9a0;
+        }
+
+        .blog-details-h2 {
+            margin-bottom: 20px;
+        }
+
+        .blog-details .userDetailsUl {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .blog-details .userDetailsLi {
+            margin-bottom: 10px;
+        }
+
+        .blog-details .hoverBG {
+            display: block;
+            padding: 5px 10px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .blog-details .hoverBG:hover {
+            background-color: #eee;
+        }
+
+        .blog-details .ResetBTN:hover {
+            background-color: none;
+        }
+
+        .postList {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+
+            .post {
+                width: 90%;
+            }
+        }
+
+        .blog-details button {
+            color: white;
+            font-size: 17px;
+            padding: 7px 13px;
+            border-radius: 3px;
+            border: none;
+            cursor: pointer;
+            background: #009579;
+            text-transform: uppercase;
+        }
+
+        .blog-details button:hover {
+            background-color: #eee;
+            box-shadow: rgba(0, 149, 122, 0.499) 0px 10px 36px 0px, rgba(0, 149, 122, 0.499) 0px 0px 0px 1px;
+            color: black;
+            transition: .5s;
+        }
+
+        .blog-details-h2 {
+            display: inline-block;
+            padding-bottom: 9px;
+            margin-bottom: 3%;
+            border-bottom: 2px solid;
+        }
+
+        .blog-details .LinkTag {
+            background-color: #009579;
+            color: white;
+            font-size: 17px;
+            padding: 7px 13px;
+            margin-left: 2%;
+            border-radius: 3px;
+            cursor: pointer;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+
+        .blog-details .LinkTag:hover {
+            background-color: #eee;
+            box-shadow: rgba(0, 149, 122, 0.499) 0px 10px 36px 0px, rgba(0, 149, 122, 0.499) 0px 0px 0px 1px;
+            color: black;
+            transition: .5s;
+        }
+    }
+
+
+}
